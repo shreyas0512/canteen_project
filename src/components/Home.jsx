@@ -3,9 +3,9 @@ import Navbar from "./Navbar";
 import Search from "./Search";
 const Home = () => {
   return (
-    <div className="bg-red h-screen">
+    <div className="bg-white h-screen flex flex-col">
       <Navbar />
-      home
+      <Search />
     </div>
   );
 };
